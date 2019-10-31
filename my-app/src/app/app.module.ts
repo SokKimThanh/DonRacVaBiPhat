@@ -12,6 +12,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { AppRoutingModule } from './app-routing.module';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   imports: [
@@ -28,6 +29,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
+    HeroesComponent,
     
   ],
   providers: [],
