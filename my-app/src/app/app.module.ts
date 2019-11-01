@@ -14,7 +14,8 @@ import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component'; // <-- NgModel lives here
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { MessagesComponent } from './messages/messages.component'; // <-- NgModel lives here
 @NgModule({
   imports: [
     BrowserModule,
@@ -33,6 +34,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component'; // <-
     ShippingComponent,
     HeroesComponent,
     HeroDetailComponent,
+    MessagesComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,14 +1,20 @@
 <a [routerLink]="['/']">
-  <img alt="Home" height="40" src="assets/images/logos/angular/logo-nav@2x.png" title="Home" width="150" class="ng-star-inserted">
+  <img alt="Home" height="40" src="assets/images/logos/angular/logo-nav@2x.png" title="Home" width="150"
+    class="ng-star-inserted">
 </a>
-<a [routerLink]="['/store']">
-  <h1>My Store</h1>
-</a>
-<a [routerLink]="['/heroes']">
-  <h1>My Heroes</h1>
-</a>
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/store']">
+      <h1>My Store</h1>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/heroes']">
+      <h1>My Heroes</h1>
+    </a>
+  </li>
+</ul>
 <a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
-
 <!-- 
   Copyright Google LLC. All Rights Reserved.
   Use of this source code is governed by an MIT-style license that
